@@ -34,11 +34,11 @@ public class KirbyHp : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("skill issues")
+        Debug.Log("skill issues");
     }
 }
 
-public class KirbyFireRate : MonoBehaviour
+public class KirbyGun : MonoBehaviour
 {
     public int kirbyFireRate = 3;  // lorsque j'appui sur espace, je tire en continue x balles par sec, en vrai jsp
 }
